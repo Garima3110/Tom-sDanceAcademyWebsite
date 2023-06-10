@@ -1,0 +1,20 @@
+doctype html
+html
+  head
+    title Tom's Dance Academy
+    block scripts
+    block style 
+    //- This base pug template will be inherited by home.pug and contact.pug using extends fileName
+  body
+    nav#navbar
+        div#logo
+          img(src="./static/logo.jpg", alt="logo")
+          | -TDA-Pvt.Ltd.
+        ul
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/contact") Contact Us] 
+    block content
+    footer#footer
+        | Copyright © 2022 TomDanceAcademy.Pvt.Ltd. |  All rights reserved.

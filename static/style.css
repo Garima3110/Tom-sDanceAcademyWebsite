@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    text-align: center;
+    text-shadow: 3px 3px 2px black;
+    font-family: 'EB Garamond', serif;
+
+}
+#navbar {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    background-color: #0e0d1d;
+    z-index: 2;
+    margin-bottom: 100px;
+    position: sticky;
+    top: 0px;
+    flex-wrap: wrap;
+
+}
+
+#navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+#navbar ul li {
+    list-style: none;
+    padding: 5px;
+
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    padding: 10px 12px;
+    margin: 15px 10px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: 3px 3px 2px black;
+
+}
+
+#navbar ul li a:hover {
+    color: bisque;
+}
+#home::before{
+
+    content: " ";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background: url('/static/dancephoto.webp') center center/cover  no-repeat;
+    z-index: -1;
+    opacity: 1;
+    max-width: 100%;
+    max-height: auto;
+}
+
+ #home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+
+}
+#home h1{
+    margin-bottom: 80px;
+}
+#home p{
+    margin-top: -65px;
+}
+ #content {
+    background-color: rgb(1, 5, 29);
+    height: auto;
+    opacity: 0.9;
+    margin-top: 154px;
+    padding: 10px 35px
+} 
+
+.container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.item {
+    padding: 10px 12px;
+    border: 2px solid black;
+    color: white;
+    border-radius: 20px;
+    background-color: #504e67;
+    margin: 10px 10px;
+    width: auto;
+    height: auto;
+}
+
+#content h2 {
+    margin: 35px auto;
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+.item img {
+    margin: 15px auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 9rem;
+    width: 8rem;
+}
+
+.item h3 {
+    
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 60px;
+    flex-wrap: wrap;
+
+}
+
+#logo img {
+    height: 5rem;
+    filter: invert(1);
+}
+
+#partners {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(1, 5, 29);
+    height: auto;
+    opacity: 0.9;
+    flex-wrap: wrap;
+
+}
+#partners h2{
+    font-size:2.7rem;
+    
+}
+
+#partnerslogo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+#partnerslogo img{
+    height: 8rem;
+    width:8rem;
+    margin: 35px 25px;
+}
+#footer {
+    background-color: rgb(1, 5, 29);
+    opacity: 0.9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    flex-wrap: wrap;
+}

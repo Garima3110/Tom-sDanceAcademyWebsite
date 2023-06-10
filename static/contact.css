@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+.primaryheadingcontact{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.userInput {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 2px;
+    display: block;
+    text-align: center;
+    text-shadow: none;
+    margin: 10px auto;
+    width: 90%;
+    border: 2px solid  rgb(1, 5, 29);
+    border-radius: 10px;
+    border-style: none;
+    outline: none;        
+      /* This is for no outline on clicking the input buttons */
+
+}
+.userInput:hover{
+    background-color:rgb(205, 205, 205);
+    color: black;
+}
+body{
+    background-color: rgb(1, 5, 29);
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'EB Garamond', serif;
+}
+
+.formdata {
+    background-color: rgb(1, 5, 29);
+    text-shadow: none;
+    box-shadow: 3px 3px 52px white;
+    border-radius: 35px;
+    padding: 20px 25px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    display: block;
+    width: 45%;
+    margin: 45px auto;
+    border: 2px solid white;
+}
+.btn{
+    padding: 3px;
+    margin: 2px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(1, 5, 29);
+    border-style: none;
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 40%;
+    cursor: pointer;
+
+}
+.btn:hover{
+    color: bisque;
+    font-weight: bold;
+}
+.btn:active{
+    color: black;
+    text-shadow: none;
+    background-color: white;
+}
+#navbar{
+    margin-bottom: -70px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 100vh;
+    flex-direction: column;
+    margin: 7rem auto;
+    flex-wrap: wrap;
+    /* Here display block is very very important remove it and then see what happens!! */
+    display: block;       
+}

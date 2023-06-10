@@ -1,0 +1,36 @@
+extends base.pug
+
+block scripts
+    script(src='/static/index.js')
+
+block  style
+   style
+      include ../static/style.css
+
+block content       
+    div#home       
+        h1  Tom's Dance Academy        
+        p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam aut obcaecati, minus voluptatibus vel eum illum sit. Nihil, fugiat facilis? Tempora quos corrupti debitis laudantium laborum recusandae maxime obcaecati nemo, veritatis ut ea quam! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum nisi quidem animi esse doloribus commodi, quae asperiores voluptate fuga maiores natus maxime corporis molestiae corrupti temporibus consequatur libero officia suscipit blanditiis voluptatem repudiandae modi.
+    section#content
+        h2  Our Sponsors
+        div.container  
+          div.item 
+            h3  Sponsor-1
+            img(src="./static/dance1.png",alt="Dance Image")
+            p Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam accusamus odio inventore fugit magnam? Quas maiores quod, ab unde totam sed quaerat mollitia fuga libero iusto repudiandae nam ipsam saepe perspiciatis! Ipsa, nulla necessitatibus.
+          div.item 
+            h3  Sponsor-2
+            img(src="./static/dance2.jpg",alt="Dance Image")
+            p Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam accusamus odio inventore fugit magnam? Quas maiores quod, ab unde totam sed quaerat mollitia fuga libero iusto repudiandae nam ipsam saepe perspiciatis! Ipsa, nulla necessitatibus.  
+          div.item 
+            h3  Sponsor-3
+            img(src="./static/dance3.jpg",alt="Dance Image")
+            p Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam accusamus odio inventore fugit magnam? Quas maiores quod, ab unde totam sed quaerat mollitia fuga libero iusto repudiandae nam ipsam saepe perspiciatis! Ipsa, nulla necessitatibus.  
+    div#partners        
+      h2 Our Partners
+      div#partnerslogo
+        img(src="./static/apple.png")
+        img(src="./static/skype.png")
+        img(src="./static/twitter.png")
+        img(src="./static/microsoft.png")
+        img(src="./static/amazon.png")
